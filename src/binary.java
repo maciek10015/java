@@ -20,6 +20,7 @@ public class binary {
 		try {
 			strumien.writeUTF("Maciek");
 			strumien.writeInt(2014);
+			strumien.writeDouble(50/4);
             while (strum.read() != -1)
                 iloscSczytanychBajtow++;
 		} catch (IOException e){
